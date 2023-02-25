@@ -38,34 +38,34 @@ let $ = true;
 // Уровень Норма Пункт - 1
 let name = prompt('Привіт, як тебе звати?');
 
-console.log('Привіт, ' + name);
+alert('Привіт, ' + name);
 
 
 // Уровень Норма Пункт - 2
 let YearsOld = prompt('Привіт, якого ти року народження');
 const currentYear = 2023;
-console.log(currentYear - YearsOld);
+alert(currentYear - YearsOld);
 
 // Уровень Норма Пункт - 3
 let square = prompt('Привіт, давай вирішимо задачку та дізнаємося периметр квадрата');
-console.log(square * 4);
+alert(square * 4);
 
 //Уровень Максимум - Пункт 1
 let radius = prompt('А тепер вирахуємо радіус кола(Введи цифру)')
 let number = Math.PI * radius ** 2;
-console.log(number);
+alert(number);
 
 //Уровень Максимум - Пункт 2
 let distance = prompt ('А давай підрахуємо вістань між містами? Введи відстань в км(цифру)')
 let time = prompt ('А тепер введи, за скільки хочете дістатися(цифру)')
 let speed = distance / time;
-console.log(speed);
+alert(speed);
 
 
 //Уровень Максимум - Пункт 3 - конвертатор
 let Dollars = prompt('Введи сумму в долларах, сколько хочешь конвертировать(У айтишников зарплата в долларах, щас узнаем сколько ты зарабатываешь)')
 const curse = 0.9;
 let Euro = Dollars * curse;
-console.log(Euro);
+alert(Euro);
 
 
